@@ -5,11 +5,15 @@ import math
 print("Please enter a value for diameter:")
 
 # Collect diameter from user input (called diameter)
-diameter = float(input())
-
+# Charlie's Dad showed him try / except**
+try:
+    diameter = float(input())
+except:
+    print("Invalid diameter entered!")
+    exit()
 # Make sure the input is a number and greater than zero
 if diameter < 0:
-    print("Invalid diameter entered!")
+    print("diameter must be a positive number!")
 else:
     # Calculate radius (diameter / 2)
     radius = diameter / 2
