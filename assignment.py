@@ -1,7 +1,7 @@
 # Import definition of pi
 import math
 
-# Give the user a nice message to ask for the diameter 
+# Give the user a nice message to ask for the diameter
 print("Please enter a value for diameter:")
 
 # Collect diameter from user input (called diameter)
