@@ -18,6 +18,16 @@ else:
     # Calculate the circumference (C = 2 * pi * radius)
     circumference = math.pi * diameter
     # Print a nice message for Area with the value of A
-    print("The value of the Area of the circle with diameter", diameter, "is", area)
+    print(
+        "The value of the Area of the circle with diameter",
+        diameter,
+        "is",
+        area,
+        )
     # Print a nice message for the Circumstances with the value of C
-    print("The value of the Circumference of the circle with diameter", diameter, "is", circumference)
+    print(
+        "The value of the Circumference of the circle with diameter",
+        diameter,
+        "is",
+        circumference,
+        )
