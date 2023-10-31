@@ -9,11 +9,11 @@ print("Please enter a value for diameter:")
 try:
     diameter = float(input())
 except Exception as e:
-    print("Invalid diameter entered!")
+    print("Invalid diameter entered!", e)
     exit()
 # Make sure the input is a number and greater than zero
 if diameter < 0:
-    print("diameter must be a positive number!", e)
+    print("diameter must be a positive number!")
 else:
     # Calculate radius (diameter / 2)
     radius = diameter / 2
