@@ -8,7 +8,7 @@ print("Please enter a value for diameter:")
 # Charlie's Dad showed him try / except**
 try:
     diameter = float(input())
-except:
+except Exception as e:
     print("Invalid diameter entered!")
     exit()
 # Make sure the input is a number and greater than zero
