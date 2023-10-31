@@ -13,7 +13,7 @@ except Exception as e:
     exit()
 # Make sure the input is a number and greater than zero
 if diameter < 0:
-    print("diameter must be a positive number!")
+    print("diameter must be a positive number!", e)
 else:
     # Calculate radius (diameter / 2)
     radius = diameter / 2
